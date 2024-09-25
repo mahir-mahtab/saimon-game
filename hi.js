@@ -4,7 +4,7 @@ let h3=document.querySelector("h3");
 let btn=document.querySelectorAll(".btn");
   let start=false;
   let level=0;
-  document.addEventListener("click",function(){
+  document.addEventListener("keypress",function(){
     if(!start){
         start=true;
         // console.log("mer");
